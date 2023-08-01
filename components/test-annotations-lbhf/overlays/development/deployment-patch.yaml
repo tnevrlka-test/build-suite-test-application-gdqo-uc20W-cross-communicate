@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-lbhf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-vwum-tenant/build-suite-test-application-gdqo/test-annotations-lbhf@sha256:d6be3f169ebd1fe97f0613773c79138748b0e0b431d1800f65f1ef79338440f1
+        name: my-nginx
+        resources: {}
+status: {}
