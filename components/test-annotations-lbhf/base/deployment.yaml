@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-lbhf
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-vwum-tenant/build-suite-test-application-gdqo/test-annotations-lbhf@sha256:d6be3f169ebd1fe97f0613773c79138748b0e0b431d1800f65f1ef79338440f1
+      - image: quay.io/tnevrlka-test/build-e2e-vwum-tenant/build-suite-test-application-gdqo/test-annotations-lbhf@sha256:25739fd60d6f7d7813d27c74175cdd2ecfbf82e665a1eef9dff52e2f9b21e8c6
         name: my-nginx
         ports:
         - containerPort: 8080
